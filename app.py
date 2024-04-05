@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import joblib
 
-model = joblib.load('C:\\second project\\churn.joblib')
+model = joblib.load('churn.joblib')
 
 column = ['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
                 'PhoneService', 'MultipleLines', 'OnlineSecurity', 'OnlineBackup',
